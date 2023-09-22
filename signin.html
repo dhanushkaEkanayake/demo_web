@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Applova Demo Website - Sign In</title>
+  <style>
+    body {
+      margin-top: 50px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 5px;
+    }
+
+    button:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Applova Demo Website - Sign In</h1>
+
+  <form action="signin.php" method="post">
+    <input type="email" name="email" placeholder="Email address">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Sign in</button>
+  </form>
+</body>
+</html>
