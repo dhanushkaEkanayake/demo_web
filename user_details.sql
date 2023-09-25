@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `user_details` (
   `email` varchar(255) NOT NULL,
-  `password` varchar(25) NOT NULL,
+  `password` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
